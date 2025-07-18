@@ -5,10 +5,12 @@ import WhyUsSection from "./pages/whyus";
 import PortfolioSection from "./pages/portfolio";
 import TeamSection from "./pages/team";
 import ContactSection from "./pages/contact";
+import GsapSmoothScroll from "./components/GsapSmoothScroll";
 
 export default function Home() {
   return (
     <div className="font-sans">
+      <GsapSmoothScroll />
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#113A33]/50 backdrop-blur-lg px-5 py-5 flex items-center shadow-md rounded-b-2xl">
         {/* Left group */} 
         <div className="flex gap-8 flex-1 justify-start">
