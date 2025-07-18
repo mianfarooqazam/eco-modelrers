@@ -9,25 +9,26 @@ import ContactSection from "./pages/contact";
 export default function Home() {
   return (
     <div className="font-sans">
-      <nav className="fixed top-0 left-0 w-full z-50 bg-[#113A33]/50 backdrop-blur-lg py-6 px-8 flex items-center shadow-md rounded-b-2xl">
-        {/* Left group */}
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#113A33]/50 backdrop-blur-lg px-5 py-5 flex items-center shadow-md rounded-b-2xl">
+        {/* Left group */} 
         <div className="flex gap-8 flex-1 justify-start">
-          <a href="#home" className="text-white font-semibold hover:text-green-300 transition-colors">Home</a>
-          <a href="#services" className="text-white font-semibold hover:text-green-300 transition-colors">Services</a>
-          <a href="#why-us" className="text-white font-semibold hover:text-green-300 transition-colors">Why Us</a>
+          <a href="#home" className="text-white font-semibold hover:text-green-300 transition-colors">HOME</a>
+          <a href="#services" className="text-white font-semibold hover:text-green-300 transition-colors">SERVICES</a>
+          <a href="#why-us" className="text-white font-semibold hover:text-green-300 transition-colors">WHY US</a>
         </div>
         {/* Center logo and text */}
-        <div className="flex flex-col items-center flex-shrink-0">
-          <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Logo" width={56} height={56} className="object-contain" />
-            <span className="text-white font-bold text-2xl">eco modelers</span>
+        <div className="flex items-center flex-shrink-0">
+          <Image src="/logo.png" alt="Logo" width={60} height={60} className="object-contain" />
+          <div className="flex flex-col items-start ml-2">
+            <span className="text-white font-bold text-2xl leading-tight">ECO</span>
+            <span className="text-white font-bold text-2xl leading-tight">MODELERS</span>
           </div>
         </div>
         {/* Right group */}
         <div className="flex gap-8 flex-1 justify-end">
-          <a href="#contact" className="text-white font-semibold hover:text-green-300 transition-colors">Contact</a>
-          <a href="#portfolio" className="text-white font-semibold hover:text-green-300 transition-colors">Portfolio</a>
-          <a href="#team" className="text-white font-semibold hover:text-green-300 transition-colors">Team</a>
+          <a href="#contact" className="text-white font-semibold hover:text-green-300 transition-colors">CONTACT</a>
+          <a href="#portfolio" className="text-white font-semibold hover:text-green-300 transition-colors">PORTFOLIO</a>
+          <a href="#team" className="text-white font-semibold hover:text-green-300 transition-colors">TEAM</a>
         </div>
       </nav>
       <div>
